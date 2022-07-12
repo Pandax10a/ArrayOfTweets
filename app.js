@@ -62,3 +62,17 @@ let tweets = [
         age: 19
     },
 ]
+
+// need to create a while loop to identify user of atleast 18 and print out: tweet, username, created_at
+
+let counter = 0;
+while(counter < tweets.length) {
+    if (tweets[counter][`age`] >= 18) {
+        console.log(`This user is 18 or older`);
+        console.log(`tweet: ${tweets[counter][`tweet`]}`);
+        console.log(`username: ${tweets[counter][`username`]}`);
+        console.log(`Created on: ${tweets[counter][`created_at`]}`);
+        console.log(``);
+    }
+    counter++;
+}
