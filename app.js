@@ -44,9 +44,9 @@ let tweets = [
         age: 16
     },
     {
-        tweet: `if you've ever stolen a Tweet say sorry`,
-        username: `Twitter`,
-        created_at: `06-30-2022`,
+        tweet: `adam driver looks like someone tried to draw keanu reeves from memory`,
+        username: `@tayallard`,
+        created_at: `02-22-2015`,
         age: 25
     },
     {
@@ -64,7 +64,7 @@ let tweets = [
 ]
 
 // need to create a while loop to identify user of atleast 18 and print out: tweet, username, created_at
-
+// added blank console.log(``) so there's a space seperation for better viewing
 let counter = 0;
 while(counter < tweets.length) {
     if (tweets[counter][`age`] >= 18) {
@@ -75,4 +75,17 @@ while(counter < tweets.length) {
         console.log(``);
     }
     counter++;
+}
+
+// same as above but using for loop, copy pasted same code and adjusted conditionals
+
+for (let counter = 0; counter < tweets.length; counter++) {
+    if (tweets[counter][`age`] < 18) {
+        console.log(`This user is under 18`);
+        console.log(`tweet: ${tweets[counter][`tweet`]}`);
+        console.log(`username: ${tweets[counter][`username`]}`);
+        console.log(`Created on: ${tweets[counter][`created_at`]}`);
+        console.log(``);
+    }
+
 }
