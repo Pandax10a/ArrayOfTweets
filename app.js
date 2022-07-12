@@ -50,15 +50,15 @@ let tweets = [
         age: 25
     },
     {
-        tweet: `if you've ever stolen a Tweet say sorry`,
-        username: `Twitter`,
-        created_at: `06-30-2022`,
+        tweet: `All I spend money on is food and clothes but I'm still hungry and can't find anything to wear`,
+        username: `@SkylarRunnels`,
+        created_at: `04-11-2020`,
         age: 11
     },
     {
-        tweet: `if you've ever stolen a Tweet say sorry`,
-        username: `Twitter`,
-        created_at: `06-30-2022`,
+        tweet: `Okay, kids, listen closely cause I'm only gonna say this 257,000 more times`,
+        username: `@Lhlodder`,
+        created_at: `11-15-2017`,
         age: 19
     },
 ]
